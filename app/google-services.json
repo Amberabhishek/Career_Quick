@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "703306577228",
+    "project_id": "career-quick",
+    "storage_bucket": "career-quick.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:703306577228:android:d8161559adc10c445d0be9",
+        "android_client_info": {
+          "package_name": "com.example.careerquick"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCT_cEnwYbzN-9v8zsnBuiaOps4vQMhV9o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

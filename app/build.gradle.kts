@@ -32,6 +32,9 @@ dependencies {
 
     implementation("com.airbnb.android:lottie:4.1.0")
     implementation("androidx.fragment:fragment:1.3.6")
+    implementation("com.google.gms:google-services:4.4.1")
+    implementation("androidx.drawerlayout:drawerlayout:1.1.1")
+
 
 
     implementation("androidx.appcompat:appcompat:1.6.1")
