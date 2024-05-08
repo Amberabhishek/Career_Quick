@@ -100,11 +100,15 @@
                             android:layout_width="75dp"
                             android:layout_height="75dp">
 
+
                             <ImageView
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:src="@drawable/img_2"
-                                />
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginEnd="0dp"
+                                android:layout_marginBottom="0dp"
+                                android:src="@drawable/img_2" />
 
                         </LinearLayout>
 
@@ -474,10 +478,6 @@
 
             </ViewFlipper>
 
-
-
-
-
             <LinearLayout
                 android:id="@+id/bottom_card2"
                 android:layout_width="match_parent"
@@ -511,15 +511,15 @@
                         android:layout_height="match_parent"
                         android:src="@drawable/img_23"/>
 
+                    <!-- Add a TextView on the right side of the ImageView -->
                     <TextView
-                        android:id="@+id/text_view5"
-                        android:layout_width="match_parent"
-                        android:layout_height="110dp"
-                        android:text="Prof. (Dr.) Neelam Sharma (Director)"
-                        android:layout_marginRight="12dp"
-                        android:layout_gravity="center_vertical"
-                        android:layout_marginLeft="110dp"
-                        android:paddingEnd="8dp"/>
+                        android:id="@+id/textViewRight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Prof (Dr) Neelam Sharma"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="40dp"
+                        android:layout_gravity="center"/>
 
                 </androidx.cardview.widget.CardView>
 
@@ -559,14 +559,15 @@
                         android:layout_height="match_parent"
                         android:src="@drawable/img_22"/>
 
+                    <!-- Add a TextView on the right side of the ImageView -->
                     <TextView
-                        android:id="@+id/text_view"
-                        android:layout_width="match_parent"
-                        android:layout_height="110dp"
+                        android:id="@+id/textviewRight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:text="Dr. N K Garg"
-                        android:layout_gravity="center_vertical"
-                        android:layout_marginLeft="110dp"
-                        android:paddingEnd="8dp"/>
+                        android:layout_marginLeft="20dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"/>
 
                 </androidx.cardview.widget.CardView>
 
@@ -609,6 +610,7 @@
                         android:layout_marginLeft="12dp"/>
                 </LinearLayout>
             </RelativeLayout>
+
 
         </RelativeLayout>
     </ScrollView>
